@@ -131,6 +131,7 @@ header_pages:
   - categories.html
   - tags.html
   - cv.html
+  - search.html
 
 # Page default value
 # defaults:
