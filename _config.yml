@@ -24,10 +24,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
-copyright: Copyright © 1970-2010
+title: For My Developer
+email: europani1212@google.com
+github: https://github.com/europani
+linkedIn: 
+
+author: europani
+copyright: Copyright © 2020-2021
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -40,7 +43,7 @@ favicon: "" # the favicon for your site
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
-  date_format: "%b %d, %Y"
+  date_format: "%Y-%m-%d"
 
 # If you want more debug log, you can set true
 # debug: false
@@ -121,12 +124,13 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
-#   - archives.html
-#   - categories.html
-#   - tags.html
-#   - about.md
+header_pages:
+  - index.html
+  - about.html
+  - archives.html
+  - categories.html
+  - tags.html
+  - cv.html
 
 # Page default value
 # defaults:
@@ -139,11 +143,11 @@ yat:
 # excerpt_size: 350
 
 # Pagination setting
-# paginate: 5
+paginate: 5
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "europani-github-io"
 
 # Gitment comments
 # gitment:
